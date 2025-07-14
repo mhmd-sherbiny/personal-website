@@ -1,0 +1,5 @@
+@mixin twoColumn($colunm-gap: 0, $row-gap: 0) {
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: $colunm-gap;
+  row-gap: $row-gap;
+}
